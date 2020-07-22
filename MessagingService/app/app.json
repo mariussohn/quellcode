@@ -1,0 +1,46 @@
+{
+  "id": "e51d9832-22b6-486f-837c-31c8b1281abd",
+  "name": "enwis.Notify",
+  "publisher": "tegos Group",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.1.0.0"
+    },
+    {
+      "id": "05f7e1ef-ed7c-42bc-8a09-6d146ed92f6f",
+      "publisher": "tegos Group",
+      "name": "enwis.Core",
+      "version": "15.0.0.0"
+
+    }
+  ],
+  "screenshots": [],
+  "platform": "15.0.0.0",
+  "idRanges": [
+    {
+      "from": 2020800,
+      "to": 2020819
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "5.0",
+  "target": "OnPrem",
+  "features": ["TranslationFile"]
+}

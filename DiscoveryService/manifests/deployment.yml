@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "sendmessageaks"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "sendmessageaks"
+    spec:
+      containers:
+        - name: "sendmessageaks"
+          image: "microserviceinfrastructure.azurecr.io/sendmessageaks"
+          ports:
+          - containerPort: 8762

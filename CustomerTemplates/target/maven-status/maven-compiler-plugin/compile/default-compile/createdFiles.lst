@@ -1,0 +1,6 @@
+templates\CustomerTemplates\SQL_Connection.class
+templates\CustomerTemplates\Template.class
+templates\CustomerTemplates\TemplateService.class
+templates\CustomerTemplates\TemplateResource.class
+templates\CustomerTemplates\CustomerTemplatesApplication.class
+templates\CustomerTemplates\TemplateRepository.class

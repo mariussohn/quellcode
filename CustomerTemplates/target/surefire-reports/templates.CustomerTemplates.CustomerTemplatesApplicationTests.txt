@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: templates.CustomerTemplates.CustomerTemplatesApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.685 s - in templates.CustomerTemplates.CustomerTemplatesApplicationTests

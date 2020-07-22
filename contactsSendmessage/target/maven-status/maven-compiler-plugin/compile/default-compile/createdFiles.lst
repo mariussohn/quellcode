@@ -1,0 +1,5 @@
+contacts\contactsSendmessage\Contact.class
+contacts\contactsSendmessage\contactRepository.class
+contacts\contactsSendmessage\contactResource.class
+contacts\contactsSendmessage\ContactsSendmessageApplication.class
+contacts\contactsSendmessage\SQL_Connection.class

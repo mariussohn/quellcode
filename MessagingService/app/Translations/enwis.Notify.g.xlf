@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="enwis.Notify">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2713463283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Service Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Service Setup WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2713463283 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Service Setup WMR - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2713463283 - Field 2994142618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Service Setup WMR - Field Username - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2713463283 - Field 204649572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Service Setup WMR - Field Password Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2713463283 - Field 3167740752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication Token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Service Setup WMR - Field Authentication Token Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2713463283 - Field 2575991450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service-URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Service Setup WMR - Field Service URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2713463283 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Service Setup WMR - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2713463283 - NamedType 2419295317" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Http Request failed. Please update your credentials.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Service Setup WMR - NamedType SendingHttpRequestFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2713463283 - NamedType 2035405389" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. Failed to query the web service. Please contact the provider.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Service Setup WMR - NamedType BadRequestErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2713463283 - NamedType 414826979" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. You do not have permission to use this function. Please contact the provider.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Service Setup WMR - NamedType UnauthorizedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2713463283 - NamedType 3818399266" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. Please check that the credentials and the service url are correct.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Service Setup WMR - NamedType ForbiddenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2713463283 - NamedType 3351274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. Web service not found. Please check the service url..</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Service Setup WMR - NamedType NotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2713463283 - NamedType 3683352769" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. The server does not respond. Please try again later.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Service Setup WMR - NamedType InternalServerErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2713463283 - NamedType 1668614503" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. Unknown Error. Please contact the provider.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Service Setup WMR - NamedType UnknownErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2713463283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Service Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Service Setup WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2713463283 - Control 2575460289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Service Setup WMR - Control Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2713463283 - Control 2575460289 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the password that is used for your company's login to the Notify service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Service Setup WMR - Control Password - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2713463283 - Control 1960663112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Service Setup WMR - Control AuthorizationKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2713463283 - Control 1960663112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the authorization key that is used for your company's login to the OCR service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Service Setup WMR - Control AuthorizationKey - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2713463283 - Control 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Service Setup WMR - Control Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2713463283 - NamedType 3838141333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Service Setup WMR - NamedType EncryptionIsNotActivatedQst</note>
+        </trans-unit>
+        <trans-unit id="Table 822434284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Templates WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 822434284 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Templates WMR - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 822434284 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Templates WMR - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 822434284 - Field 1821279055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Templates WMR - Field Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3772517428 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Placeholder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Placeholder WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3772517428 - Field 1513541189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Placeholder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Placeholder WMR - Field Placeholder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3772517428 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Placeholder WMR - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3772517428 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Placeholders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Placeholder WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3772517428 - Control 2512543841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Placeholder WMR - Control Beschreibung - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 202036913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Contact No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 1566945082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Message Interface - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 958911823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expiration Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Expiration Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 1254343174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Messages Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field No. of Messages Send - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 691815536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time until Expiration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Time until Expiration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 2649378047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Record ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Source Record ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 1365258807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Workflow Step Instance ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Workflow Step Instance ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 605439061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Step</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Current Step - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 605439061 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"order confirmation","memory","memory at task date","delay","finished"</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Current Step - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - Field 2202932243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - Field Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2859200489 - NamedType 3853266528" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be later than %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Expiration Date, %2=Start date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notify Entry WMR - NamedType ExpiresBeforeStartErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 820303940 - NamedType 2692697956" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Workflow Mgt. WMR - NamedType NotifyCategoryDescrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 820303940 - NamedType 1192678092" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Anouncement Workflow - Waste Mgt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Workflow Mgt. WMR - NamedType ServiceAnouncementWorkflowDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 820303940 - NamedType 3386136764" size-unit="char" translate="no" xml:space="preserve">
+          <source>&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?&gt;&lt;ReportParameters&gt;&lt;DataItems&gt;&lt;DataItem name="Waste Management Header WMR"&gt;%1&lt;/DataItem&gt;&lt;DataItem name="Waste Management Line WMR"&gt;%2&lt;/DataItem&gt;&lt;/DataItems&gt;&lt;/ReportParameters&gt;</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Workflow Mgt. WMR - NamedType DocumentHeaderCondnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 820303940 - NamedType 2464616427" size-unit="char" translate="no" xml:space="preserve">
+          <source>&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?&gt;&lt;ReportParameters&gt;&lt;DataItems&gt;&lt;DataItem name="Notify Entry WMR"&gt;%1&lt;/DataItem&gt;&lt;/DataItems&gt;&lt;/ReportParameters&gt;</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Workflow Mgt. WMR - NamedType NotifyEntriesCondnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 820303940 - NamedType 3058552306" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service notification was enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Workflow Mgt. WMR - NamedType ServiceAnouncementEnabledMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 820303940 - NamedType 3048580085" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service notification was removed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Workflow Mgt. WMR - NamedType ServiceAnouncementDisabledMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 1830244146" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify a message.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType MessageTextEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 272935150" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The message must not have more than %1 characters.\Message: %2\Length: %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Max length; %2 = Current message text; %3 = Length of current message text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType MessageTextExceedsMaxLengthErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 256937519" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to process Notify Entry, Entry No. = %1, because Contact '%2' does not exists.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Notify Entry No., %2 = Contact No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType ContactDoesNotExistsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 4032182098" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to process Notify Entry, Entry No. = %1, because No Mobile Phone Number does exist. Please insert a mobile phone number into the contact %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Notify Entry No.; %2 = Contact No. </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType MissingMobilePhoneNumberErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 2419295317" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Http Request failed. Please update your credentials.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType SendingHttpRequestFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 2035405389" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. Failed to query the web service. Please contact the provider.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType BadRequestErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 414826979" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. You do not have permission to use this function. Please contact the provider.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType UnauthorizedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 3818399266" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. Please check that the credentials and the service url are correct.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType ForbiddenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 3351274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. Web service not found. Please check the service url..</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType NotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 3683352769" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. The server does not respond. Please try again later.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType InternalServerErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2972018429 - NamedType 1668614503" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1. Unknown Error. Please contact the provider.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify SMS Interface WMR - NamedType UnknownErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 747708636 - NamedType 940278389" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notification is requested.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Event Library WMR - NamedType RequestNotificationEventDescrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 747708636 - NamedType 847115507" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A Notify Entry is carried out.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Event Library WMR - NamedType CarryOutNotifyEventDescrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 747708636 - NamedType 3119239515" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disable Notification.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Event Library WMR - NamedType DisableNotifyDescrText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3549151025 - NamedType 978213012" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an Notify Entry from waste mgt. document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Response Library WMR - NamedType CreateNotifyEntryDescrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3549151025 - NamedType 248338269" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Notification via Interface.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Response Library WMR - NamedType SendNotifyEntryViaInterfaceDescrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3549151025 - NamedType 3372595847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete an entry from table Notify Entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Response Library WMR - NamedType DeleteNotifyEntryDescrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3549151025 - NamedType 376286377" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot initialize a Notify Entry from %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Tablecaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Response Library WMR - NamedType NotSupportedSourceForNotifyEntryErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1172351244 - NamedType 4005917478" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No notify workflow for this document is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notify Management WMR - NamedType NoWorkflowEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1620958206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Templates List WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1620958206 - Control 2512543841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Templates List WMR - Control Beschreibung - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1721884393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Template Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Template Card WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1721884393 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Template Card WMR - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1721884393 - Control 3076946130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Template Card WMR - Control MessageText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3345263456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Placeholder Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Placeholder Card WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2364279123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Entries WMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2364279123 - Action 4042794447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Carry-out Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Entries WMR - Action CarryOut - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2364279123 - Action 4283638840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disable Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notify Entries WMR - Action Disable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2392169211 - Control 918513278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 842076612">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Notify WF Response Options WMR - Control NotifyMessageFieldWMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2392169211 - Control 918513278 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 842076612">
+          <source>Specifies the message that will be send via interface.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Notify WF Response Options WMR - Control NotifyMessageFieldWMR - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3967734578 - Control 4227674461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 816433816">
+          <source>enwis.Notify</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NotifyForBusPartnerCardWMR - Control NotifyWMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3967734578 - Control 1923110198 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 816433816">
+          <source>Specifies a Contact that will be informed by the enwis.Notify functionality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NotifyForBusPartnerCardWMR - Control NotifyContactNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3967734578 - Control 4114915378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 816433816">
+          <source>Specifies the default comunication interface which is used by the enwis.Notify functionality.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NotifyForBusPartnerCardWMR - Control NotifyInterface - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 525798502 - Control 4227674461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3108095286">
+          <source>enwis.Notify</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NotifyForTaskSiteCardWMR - Control NotifyWMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 525798502 - Control 1923110198 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3108095286">
+          <source>Specifies a Contact that will be informed by the enwis.Notify functionality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NotifyForTaskSiteCardWMR - Control NotifyContactNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 525798502 - Control 4114915378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3108095286">
+          <source>Specifies the default comunication interface which is used by the enwis.Notify functionality.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NotifyForTaskSiteCardWMR - Control NotifyInterface - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1107813563 - Action 2766563297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1424949014">
+          <source>Enable Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NotifyInformationOrderWMR - Action NotifyEnableNotification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3919705837 - Field 896283359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2752032398">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Notify WF Step Argument WMR - Field NotifyMessageTextWMR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2792570684 - Field 1923110198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3271890732">
+          <source>Contract No. (Notification)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NotifyForBusinessPartnerWMR - Field NotifyContactNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2792570684 - Field 4114915378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3271890732">
+          <source>Notification Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NotifyForBusinessPartnerWMR - Field NotifyInterface - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3935114 - Field 1923110198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3017077170">
+          <source>Contract No. (Notification)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NotifyForTaskSiteWMR - Field NotifyContactNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3935114 - Field 4114915378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3017077170">
+          <source>Notification Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NotifyForTaskSiteWMR - Field NotifyInterface - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2161775879 - Field 1064958904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3266135004">
+          <source>Activate Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NotifyForWasteMgtHeaderWMR - Field ActivateNotification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2161775879 - Field 4114915378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3266135004">
+          <source>Notification Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NotifyForWasteMgtHeaderWMR - Field NotifyInterface - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2161775879 - Field 1923110198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3266135004">
+          <source>Contract No. (Notification)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NotifyForWasteMgtHeaderWMR - Field NotifyContactNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1363447186 - EnumValue 3038616975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SMS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Notify Interface WMR - EnumValue SMS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1363447186 - EnumValue 2264098148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WhatsApp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Notify Interface WMR - EnumValue WhatsApp - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
